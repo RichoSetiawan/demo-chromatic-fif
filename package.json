@@ -9,7 +9,7 @@
     "storybook": "storybook dev -p 6006 -c storybook",
     "build-storybook": "storybook build -c storybook",
     "chromatic": "chromatic --project-token=chpt_1dfdbf0083b9f64 --config-file visual-regression/chromatic/chromatic.config.json",
-    "chromatic:strict": "chromatic --project-token=chpt_1dfdbf0083b9f64 --config-file visual-regression/chromatic/chromatic.strict.config.json --exit-zero-on-changes=false",
+    "chromatic:strict": "chromatic --project-token=chpt_1dfdbf0083b9f64 --config-file visual-regression/chromatic/chromatic.strict.config.json --exit-zero-on-changes=false --force-rebuild",
     "chromatic:error-demo": "VITE_CHROMATIC_ERROR_DEMO_SEED=$(date +%s) chromatic --project-token=$CHROMATIC_PROJECT_TOKEN --config-file visual-regression/chromatic/chromatic.strict.config.json --exit-zero-on-changes=false --force-rebuild",
     "test": "vitest run",
     "lint": "eslint ."
