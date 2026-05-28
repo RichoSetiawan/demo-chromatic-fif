@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 export function Badge({ text, tone = 'accent' }) {
-  return <span className={`ui-badge ui-badge-${tone}`}>{text}</span>;
+  return <span className={`ui-badge ui-badge-${tone}`}>{text}Title</span>;
 }
 
 Badge.propTypes = {
