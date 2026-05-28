@@ -30,7 +30,7 @@ import {
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <LoginForm
-      title="Masuk ke Akun"
+      title="Masuk ke Hati FIF"
       subtitle="Silakan masukkan username dan password Anda."/>
     <ApprovalModal/>
     <ApprovalTimeline entries={sampleTimelineEntries} activeStage={sampleTimelineActiveStage} />

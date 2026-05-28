@@ -10,7 +10,7 @@
     "build-storybook": "storybook build -c storybook",
     "chromatic": "chromatic --project-token=$CHROMATIC_PROJECT_TOKEN --config-file visual-regression/chromatic/chromatic.config.json",
     "chromatic:strict": "chromatic --project-token=$CHROMATIC_PROJECT_TOKEN --config-file visual-regression/chromatic/chromatic.strict.config.json --exit-zero-on-changes=false",
-  "chromatic:error-demo": "VITE_CHROMATIC_ERROR_DEMO_SEED=$(date +%s) chromatic --project-token=$CHROMATIC_PROJECT_TOKEN --config-file visual-regression/chromatic/chromatic.strict.config.json --exit-zero-on-changes=false --force-rebuild",
+    "chromatic:error-demo": "VITE_CHROMATIC_ERROR_DEMO_SEED=$(date +%s) chromatic --project-token=$CHROMATIC_PROJECT_TOKEN --config-file visual-regression/chromatic/chromatic.strict.config.json --exit-zero-on-changes=false --force-rebuild",
     "test": "vitest run",
     "lint": "eslint ."
   },
@@ -27,7 +27,7 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",
     "@vitejs/plugin-react": "^4.3.4",
-    "chromatic": "^17.0.1",
+    "chromatic": "^17.1.0",
     "eslint": "^9.17.0",
     "eslint-plugin-react": "^7.37.3",
     "eslint-plugin-react-hooks": "^5.1.0",
