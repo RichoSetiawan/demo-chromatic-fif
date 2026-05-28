@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-export function Badge({ text, tone = 'accent' }) {
+export function Badge({ text, tone = 'teal' }) {
   return <span className={`ui-badge ui-badge-${tone}`}>Title: {text} Bibi</span>;
 }
 
