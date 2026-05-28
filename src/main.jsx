@@ -31,7 +31,7 @@ createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <LoginForm
       title="Masuk ke Hati FIF"
-      subtitle="Silakan masukkan username dan password Anda."/>
+      subtitle="Silakan masukkan username dan password Anndvjkd."/>
     <ApprovalModal/>
     <ApprovalTimeline entries={sampleTimelineEntries} activeStage={sampleTimelineActiveStage} />
     <LoanApplicationForm initialValues={sampleLoanApplication} />
